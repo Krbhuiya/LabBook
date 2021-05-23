@@ -1,0 +1,20 @@
+Abs Class Item //-id, -title, -no.copies|	(constructor,getter,setter,toString,additem)
+|
+|
+|_ _ Sub Abs class WrittingItem // -author
+|	(constructor,getter,setter,toString,additem)
+|	|
+|	|
+|	|_ _class Book //
+|	|	override/overload methods from the 		|	|	superclass.
+|	|
+|	|_ _class JounalPaper //-year published
+|		override/overload methods from superclass 	|
+|_ _ MediaItem // -intdata
+	(constructor,getter,setter,toString,additem)
+	|
+	|
+	|_ _class Video // -director,-genre,-year
+	|	override/overload methods from the superclass
+	|
+	|_ _class CD // -artist, -genre
